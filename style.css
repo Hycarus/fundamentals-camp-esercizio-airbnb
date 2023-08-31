@@ -1,0 +1,46 @@
+*{
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+}
+
+.new-york{
+    background-image: url(new-york.jpg);  
+}
+
+.st-basils{
+    background-image: url(st-basils.jpg);  
+}
+
+.taj-mahal{
+    background-image: url(taj-mahal.jpg);     
+}
+
+.taj-mahal, .new-york, .st-basils{
+    height: 100vh;
+    width: 100%;   
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: red;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.layover{
+    
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
